@@ -1,0 +1,109 @@
+.slick-slide {
+  width: 6% !important;
+  margin: 0 1.2em;
+}
+
+.slick-list {
+  height: 500px;
+}
+.signature-dish {
+  font-size: 1em;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.signature-dish .dish-container {
+  padding: 0 5%;
+  margin-top: 10px;
+}
+
+.card-popular {
+  background-color: #f9f4ea;
+  display: inline-block;
+  height: 450px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.popular-top {
+  margin: 0;
+  height: 55%;
+}
+
+.popular-top img {
+  height: 100%;
+  width: 100%;
+}
+
+.popular-bottom {
+  background-color: #f9f4ea;
+  text-transform: capitalize;
+  padding: 0 1em 1em 1em;
+}
+.popular-bottom .title {
+  margin-top: 28px;
+  font-size: 1.2em;
+  letter-spacing: 2.7px;
+  height: 4.5em;
+}
+.popular-bottom .name,
+.address {
+  font-size: 0.9em;
+  letter-spacing: 1.7px;
+}
+.restaurant {
+  margin-top: 5em;
+}
+
+@media (min-width: 870px) and (max-width: 1024px) {
+  .slick-slide {
+    width: 11% !important;
+    margin: 0 0.6em;
+    height: 502px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 869px) {
+  .slick-slide {
+    width: 11% !important;
+    margin: 0 0.6em;
+    height: 502px;
+  }
+  .card-popular {
+    height: 370px;
+  }
+  .weekly-chef .column .chef-title {
+    text-align: center;
+  }
+  .weekly-chef .column .chef-container .chef-img {
+    height: auto;
+  }
+  .column {
+    padding: 2%;
+  }
+  .weekly-chef .column .chef-container .chef-content {
+    font-size: 0.6em;
+    margin-left: 2em;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .slick-slide {
+    width: 14% !important;
+    margin: 0 0.6em;
+    height: 502px;
+  }
+  .card-popular {
+    height: 370px;
+  }
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .slick-slide {
+    /* width: 17% !important; */
+    width: 14% !important;
+    margin: 0 0.6em;
+    height: 502px;
+  }
+  .card-popular {
+    height: 370px;
+  }
+}

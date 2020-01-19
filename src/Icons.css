@@ -1,0 +1,66 @@
+.menu-icons {
+  font-family: "PT Sans", sans-serif;
+
+  height: 265px;
+  padding: 2% 15%;
+  margin: 4em 0;
+  background-color: #fafafa;
+  font-size: 25px;
+}
+.menu-icons .menu-column {
+  margin: auto;
+  text-align: center;
+}
+.menu-icons .menu-column .icons {
+  padding: 0px 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-icons .menu-column .icons-name {
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (min-width: 640px) and (max-width: 869px) {
+  .menu-icons .menu-column .icons img {
+    width: 50px;
+  }
+  .menu-icons .menu-column .icons img.spicy-icon {
+    width: 60px;
+  }
+  .menu-icons .menu-column .icons-name {
+    font-size: 0.8em !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 639px) {
+  .menu-icons {
+    padding: 2% 5%;
+    margin: 1.5em 0;
+  }
+  .menu-icons .menu-column .icons,
+  .menu-icons .menu-column .icons-name {
+    justify-content: space-around;
+  }
+
+  .menu-icons .menu-column .icons,
+  .menu-icons .menu-column .icons-name {
+    padding: 0px 1em;
+  }
+}
+@media (min-width: 375px) and (max-width: 479px) {
+  .menu-icons {
+    padding: 2% 5%;
+    margin: 1.5em 0;
+    font-size: 1.5em;
+  }
+  .menu-icons .menu-column .icons,
+  .menu-icons .menu-column .icons-name {
+    justify-content: space-between;
+  }
+
+  .menu-icons .menu-column .icons,
+  .menu-icons .menu-column .icons-name {
+    padding: 0px 1em;
+  }
+}

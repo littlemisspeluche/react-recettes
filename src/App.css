@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+
+.item-recipe h2 {
+  color: #222;
+}
+
+.item-recipe {
+  position: relative;
+  width: 100%;
+  margin: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+}
+ul.item-recipe {
+  list-style: none;
+  margin: 1em 0.31em;
+  padding: 0;
+}
+ul.item-recipe li h3 {
+  font-size: 1rem;
+  padding: 0 0.3rem;
+}
+ul.item-recipe li {
+  background: none;
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0 0.3rem;
+}
+ul.item-recipe li:first-child {
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  border: 0;
+  /* -ms-interpolation-mode: bicubic; */
+}
+/* @media (min-width: 1024px) {
+  .item-recipe {
+    width: 20%;
+  }
+  .item-list {
+    width: 90%;
+    margin: 5%;
+  }
+} */
+@media (min-width: 870px) {
+  .item-recipe {
+    width: 22.5%;
+  }
+  .item-list {
+    width: 90%;
+    margin: 5%;
+  }
+}
+/* 
+@media (min-width: 720px) {
+  .item-recipe {
+    width: 31.5%;
+  }
+  .item-list {
+    width: 90%;
+    margin: 5%;
+  }
+} */
+@media (min-width: 640px) and (max-width: 869px) {
+  .item-recipe {
+    width: 31%;
+  }
+  .item-list {
+    width: 95%;
+    margin: 2.5%;
+  }
+}
+@media (min-width: 480px) and (max-width: 639px) {
+  .item-recipe {
+    width: 40%;
+  }
+  .item-list {
+    width: 98%;
+    margin: 2%;
+  }
+}

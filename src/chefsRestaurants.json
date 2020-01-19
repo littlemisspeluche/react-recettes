@@ -1,0 +1,129 @@
+{
+  "chefs": [
+    {
+      "name": "Alex Atala",
+      "aboutChef": "Firmly linked to his roots and looking towards the future, Alex Atala is, above all, passionate about Brazil, nature, gastronomy, and life. Driven by challenges and a great sense of indignation, Atala manages, with extreme delicacy and technique, to turn his creative energy into unforgettable experiences for those who have the opportunity to prove his experiments. His aim is to explore all the gastronomic possibilities of domestic ingredients, combining classical basis with current techniques. However, with boldness and vision, Atala surpasses the boundaries of cuisine and acts as a responsible citizen, valuing the small producer, encouraging young professionals, and supporting the third sector Alex Atala was still a little boy when he had his first contact with the Amazon region, thanks to his family. Already at age 19, in the Hospitality School of Namur, in Belgium, Atala began his career as a professional chef. In France, he worked in restaurants such as the ones owned by Jean Pierre Bruneau and Bernard Loiseau, and was a trainee at the renowned Hotel de la Cote D’Or. He next left for new challenges in kitchens of Montpellier and Milan. Back to São Paulo in 1994, he soon drew attention for his performance while in charge of the restaurants Filomena and 72. In 1999, he began his career as chef-owner in the acclaimed Namesa. In the very same year he opened the D.O.M. Restaurant, as well as a new era for Brazilian cuisine, where the ingredients and food culture of his country are protagonists in an avant-garde, sophisticated, and always surprising cuisine.",
+      "restaurant": {
+        "name": "D.O.M.",
+        "address": "Rua Barão de Capanema, 549 - Jardins São Paulo . SP - Brasil",
+        "shortAddress": "São Paulo . Brasil",
+        "aboutRestaurant": "“Brazilian gastronomy is a feasible dream.” This statement made by chef Alex Atala summarizes the trajectory of the D.O.M. Restaurant. Created at a time when little was known about Brazil’s flavours, the D.O.M. was born like a project which is now a reality. A genuine reality that reverberates around the world, diffusing ingredients like açaí, jambu, tucupi. Not by immodesty… by mission. Currently elected the 9th best restaurant in the world by S. Pellegrino “World´s 50 Best Restaurants”, D.O.M. is a unique restaurant without claiming to be eloquent. On the contraty, its message is syntactic and poignant: to step out the comfort zone and propose a new gastronomic experience, rescuing the most authentic flavours of Brazilian cuisine according to a contemporary gaze.",
+        "michelinStars": "2",
+        "menu": {
+          "1": {
+            "name": "The Amazon Ant",
+            "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2016/12/29180540/Chef_2_Atala_00405RC_Chef-Table-and-Chef-Table-Season-2_Zhana-Leeson_Netflix-edited.jpg"
+          },
+          "2": {
+            "name": "Pirarucu (Amazonian River Fish) With Manioc Flour, Tucupi And Tapioca",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/82274237_10219624371973868_2293039376696868864_o.jpg?_nc_cat=103&_nc_oc=AQmkhf8x2_oo-ep6Zx56gubgX5Nw4CQLL1CPJ8IepljLe6FM5uAinuhQxXnw-yukCyk&_nc_ht=scontent.fsdv3-1.fna&oh=98b3367047cf7632c522f52d5255b19a&oe=5EA36373"
+          }
+        }
+      }
+    },
+    {
+      "name": "Alain Passard",
+      "aboutChef": "The dishes that Alain Passard creates have a certain poetic mystery and an obvious enigma; they are always set to music, fugues, arias, sonatas, concertos, oratorios – They are symphonies around the products. Alain Passard describes himself as « a sculptor of the flame »; He says he knows how to combine each product with the right flame: One that strokes, one that seizes… The Chef says the first step with vegetables starts by looking at their colour “A mauve, a yellow, a marbly white, a celadon green, a pearly orange, these are colours that inspire me. I proceed by touches. The technical aspect comes after this.”",
+      "restaurant": {
+        "name": "Arpège",
+        "address": "84, Rue de Varenne 75007 Paris . France",
+        "shortAddress": "Paris . France",
+        "aboutRestaurant": "In 1986, Alain Passard opened his restaurant Arpege, previously run by his own master Alain Senderens under the name Archestrate. He named it so to pay tribute to music, his second passion and decorated the restaurant in an Art Deco style. Alain Passard chose Lalique Cristal in pear tree waves to the rhythm of Bacchanalia for the walls of the restaurant. The smooth leather chairs seem to blend in with the movement.",
+        "michelinStars": "3",
+        "menu": {
+          "1": {
+            "name": "Vegetable Sushi With Fig Leaf",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/82099942_10219624371373853_4780376146082529280_o.jpg?_nc_cat=102&_nc_oc=AQkdENuYTci4yxPvBW8COtOcqxXAxvXqbVChRh_70or_LFTRbw68iOZmr396cNe90tw&_nc_ht=scontent.fsdv3-1.fna&oh=4bf02e24e28b2fb9128c5a95fb1be24b&oe=5E909CC0"
+          },
+          "2": {
+            "name": "Bigouden Salad With Shaved Salted Butter",
+            "image": "https://i.pinimg.com/originals/52/1a/d8/521ad8feea8546bc0a27c55bc3557183.jpg"
+          },
+
+          "3": {
+            "name": "Smoked Eggplant & Pear",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/82595461_10219624371773863_5852144514214395904_o.jpg?_nc_cat=111&_nc_oc=AQlHspSkTj-7VJLY8ovlappCJnzNw8yMMzFjBmX38zu3dcRVAop5TSEmQKMEekR6jWs&_nc_ht=scontent.fsdv3-1.fna&oh=5fb798a33bca447ba149d1441337d486&oe=5EAC9997"
+          },
+          "4": {
+            "name": "Bouquet Of Roses",
+            "image": "http://www.alain-passard.com/wp-content/uploads/2015/11/Tarte-Bouquet-de-Rose%C2%A9-Cre%CC%81dit-bernhard-Winkelmann.jpg"
+          },
+          "5": {
+            "name": "Beet Tartare",
+            "image": "https://i.f1g.fr/media/eidos/orig/2019/10/02/XVMe8b0d1f2-e10c-11e9-ba14-f333697d75a1.jpg"
+          },
+          "6": {
+            "name": "Red Cabbage Salad",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/82890335_10219624371173848_7901812687229681664_o.jpg?_nc_cat=105&_nc_oc=AQnCC6qkmpbEfpVmcgrh1zV-WIkalK9J6Vw18r5P30AcRLpaq1sAjVoC90S9V5YEkAk&_nc_ht=scontent.fsdv3-1.fna&oh=eedd8f0aa24d7ecdeb8d3baca1bd2bf7&oe=5EA8CA15"
+          },
+          "7": {
+            "name": "Chicken Duck Cooked In Its Hay",
+            "image": "https://andyblandy.files.wordpress.com/2016/11/chickenduck.jpg?w=1200&h=593"
+          },
+          "8": {
+            "name": "Onion Gratin",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/p960x960/30727134_10155461717091444_7982546256939450368_o.jpg?_nc_cat=108&_nc_oc=AQl_iDi_K0Bnt1c747IpSug062qxyKRWc5uMAuzCOamOVDFmNq3SWQG8Qh5wXSPRpt4&_nc_ht=scontent.fsdv3-1.fna&_nc_tp=1&oh=6252a0a55c4fbb0c3f8e71276d05841b&oe=5EA210F2"
+          },
+          "9": {
+            "name": "Peach Tatin With Grapes",
+            "image": "https://www.foodandhome.co.za/app/uploads/2018/01/Grape-and-peach-tarte-Tatin.jpg"
+          },
+          "10": {
+            "name": "Gardener's Gnocchi",
+            "image": "https://www.luxeat.com/images/2015/06/L1230581-1200x802.jpg"
+          },
+          "11": {
+            "name": "Mixed Vegetables With Honey",
+            "image": "https://m.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/06/07/Pictures/_697e2e66-4b8b-11e7-942b-1b07039b2a8c.JPG"
+          }
+        }
+      }
+    },
+
+    {
+      "name": "Alexandre Couillon",
+      "aboutChef": "",
+      "restaurant": {
+        "name": "La Marine",
+        "address": "5 Rue Marie Lemonnier, 85330 Noirmoutier-en-l'Île, France",
+        "shortAddress": "Île de Noirmoutier . France",
+        "aboutRestaurant": "",
+        "michelinStars": "2",
+        "menu": {
+          "1": {
+            "name": "Beet Tartlet",
+            "image": "https://cdn.star2.com/wp-content/uploads/2016/09/chef1.jpg"
+          },
+          "2": {
+            "name": "Bois De La Chaize",
+            "image": "https: //yam.paris/wp-content/uploads/2019/10/Miniature-39.jpg"
+          },
+          "3": {
+            "name": "Whiting With Chard & Seaweed",
+            "image": "https://yam.paris/wp-content/uploads/2019/10/Miniature-41.jpg"
+          },
+          "4": {
+            "name": "Erika Oyster",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t31.0-8/s960x960/11953325_1481281698853393_8303979654347924667_o.jpg?_nc_cat=110&_nc_oc=AQk0E7K7slJxRzAPVAxnx0fCOoq86I2Lq5jc4vg-oi7xqId2U8DjXzDGCZiC1go1XO8&_nc_ht=scontent.fsdv3-1.fna&_nc_tp=1&oh=3cbce327adcb4f19c4bfabde2bb617c6&oe=5EA109D0"
+          },
+          "5": {
+            "name": "Shellfish And Crustaceans",
+            "image": "https://scontent.fsdv3-1.fna.fbcdn.net/v/t1.0-9/11898667_1481281635520066_4284157148584834228_n.jpg?_nc_cat=104&_nc_oc=AQmu6gR0wkD3f3AAnTsUHWIDgeCJ8BoPuYnpOuUP6g8TaPBLRCQny5NpDXI61sTP1xE&_nc_ht=scontent.fsdv3-1.fna&oh=16cb367c267d8ab0ef4dfeccab65b468&oe=5EDC1782"
+          },
+          "6": {
+            "name": "Smoked Mullet",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/b8/67/43/la-marine-a-noirmoutier.jpg"
+          },
+          "7": {
+            "name": "Turbot With Carrot & Nasturtium",
+            "image": "https://www.ile-noirmoutier.com/sites/default/files/ingenie/images/ile-de-noirmoutier-restaurants-2015-la-marine-3-29264.jpeg"
+          },
+          "8": {
+            "name": "Hay Ice Cream",
+            "image": "http://www.tastyparks.com/wp-content/uploads/2013/04/restaurant-La-Marine-Noirmoutier-46-571x380.jpg"
+          }
+        }
+      }
+    }
+  ]
+}

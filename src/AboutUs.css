@@ -1,0 +1,207 @@
+.about-us {
+  font-family: "PT Sans", sans-serif;
+  padding: 2% 10%;
+  background-color: #fafafa;
+}
+.about-us h3 {
+  margin-top: 22px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.about-us-content {
+  font-size: 22px;
+  height: 100%;
+  font-size: 16px;
+  letter-spacing: 1.7px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-us-content p {
+  width: 60%;
+}
+.about-us-logo {
+  width: 40%;
+}
+.about-us-logo .logo-icon {
+  margin: auto 170px;
+  height: 166px;
+}
+.about-download {
+  width: 50%;
+  margin-bottom: 63px;
+  display: flex;
+}
+.about-download .download-apple {
+  margin: 7px 0;
+  display: flex;
+  width: 181.4px;
+  height: 52.8px;
+  border: 1px solid black;
+  border-radius: 9.6px;
+  letter-spacing: 1.3px;
+  line-height: 1.1;
+}
+.about-download .download-apple {
+  margin: auto 10px;
+  padding-left: 0.5em;
+  margin-left: 0;
+}
+.about-download .download-apple p {
+  text-align: center;
+  width: 120px;
+  margin: auto;
+}
+.about-download .download-apple p .apple-text1 {
+  font-size: 12px;
+}
+.about-download .download-apple p .apple-text2 {
+  font-size: 17px;
+}
+.about-download .download-android {
+  margin: 7px 0;
+  display: flex;
+  width: 181.4px;
+  height: 52.8px;
+  border: 1px solid black;
+  border-radius: 9.6px;
+  letter-spacing: 1.3px;
+  margin-left: 15px;
+  line-height: 1.1;
+}
+.about-download .download-android .android-icon {
+  margin: auto 10px;
+}
+.about-download .download-android p {
+  text-align: center;
+  width: 120px;
+  margin: auto;
+}
+.about-download .download-android p .android-text1 {
+  font-size: 12px;
+}
+.about-download .download-android p .android-text2 {
+  font-size: 17px;
+}
+@media (min-width: 870px) and (max-width: 1024px) {
+  .about-us {
+    padding: 2% 5%;
+  }
+  .about-us-logo .logo-icon {
+    margin: 2em 5em;
+  }
+  .about-download .download-apple {
+    margin-left: 0;
+  }
+}
+@media (min-width: 640px) and (max-width: 869px) {
+  .about-us {
+    padding: 2%;
+    text-align: center;
+  }
+  .about-us-content {
+    display: block;
+  }
+  .about-us-content p {
+    font-size: 0.9em;
+    width: 80%;
+    margin: 1em 4em;
+  }
+  .about-us-logo {
+    width: 30%;
+  }
+  .about-us-logo .logo-icon {
+    margin: 0;
+    height: auto;
+    width: 100%;
+  }
+  .about-us-logo {
+    width: 30%;
+    margin: 3em auto;
+  }
+  .about-download {
+    width: 100%;
+  }
+  .about-download .download-android {
+    margin-top: 1em;
+    margin-right: auto;
+  }
+  .about-download .download-apple {
+    margin-top: 1em;
+    margin-left: auto;
+  }
+}
+@media (min-width: 480px) and (max-width: 639px) {
+  .about-us-content {
+    display: block;
+  }
+  .about-us {
+    text-align: center;
+    padding: 2% 5%;
+  }
+  .about-us-content p {
+    width: 93%;
+    padding: 1em;
+  }
+  .about-us-logo {
+    width: 100%;
+  }
+  .about-us-logo .logo-icon {
+    margin: 0;
+  }
+  .about-download {
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about-download .download-apple p,
+  .about-download .download-android p {
+    padding: 0.1em;
+  }
+  .about-download .download-android {
+    margin: 0;
+  }
+}
+@media (min-width: 375px) and (max-width: 479px) {
+  .about-us-content {
+    display: block;
+  }
+  .about-us-content p {
+    width: 100%;
+    font-size: 1em;
+  }
+  .about-us {
+    text-align: center;
+    padding: 2% 5%;
+  }
+  .about-us h3 {
+    font-size: 1.8em;
+  }
+  .about-us-logo {
+    width: 100%;
+
+    margin: 3em 0;
+  }
+  .about-us-logo .logo-icon {
+    margin: auto 4em;
+    height: auto;
+    width: 55%;
+  }
+  .about-download {
+    width: 100%;
+  }
+  .about-download .download-apple {
+    margin: auto 0.1em;
+    padding-left: 0.3em;
+    width: 100%;
+  }
+
+  .about-download .download-android {
+    width: 100%;
+    margin-left: 0.3em;
+  }
+  .about-download .download-android .android-icon {
+    margin: 0 0.4em;
+  }
+}

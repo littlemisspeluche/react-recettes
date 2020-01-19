@@ -1,0 +1,108 @@
+.item-list {
+  padding: 1em 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.search-field .search-input {
+  margin: 0.4em 1em;
+  width: 27% !important;
+  height: 7% !important;
+}
+
+@media (min-width: 1025px) and (max-width: 1224px) {
+  .search-field .search-input {
+    width: 44% !important;
+    height: 4% !important;
+  }
+  .recette-card {
+    width: 30% !important;
+    margin: 0.9em !important;
+  }
+}
+@media (min-width: 870px) and (max-width: 1024px) {
+  .menu-container .left-subcontainer {
+    margin-left: 2em;
+  }
+  .right-subcontainer {
+    margin-right: 2em;
+  }
+  .item-list {
+    padding: 1em;
+  }
+  .search-field .search-input {
+    width: 44%;
+    height: 4%;
+  }
+  .recette-card {
+    width: 30% !important;
+    margin: 0.5em !important;
+  }
+  .search-field .search-input {
+    width: 44% !important;
+    height: 4% !important;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 869px) {
+  .search-field .search-input {
+    width: 60%;
+    height: 3% !important;
+  }
+  .item-list {
+    padding: 1em;
+  }
+  .recette-card {
+    width: 44%;
+    margin: 1em;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .item-list {
+    padding: 0;
+    width: 100%;
+  }
+  .search-field {
+    width: 80%;
+    margin: 2em 0.8em;
+  }
+  .search-field .search-input {
+    width: 72%;
+    margin: 0.5em 0 0.3em 2em;
+    font-size: 1em;
+  }
+  .search-field .search-icon {
+    margin: 0.3em 0 0.5em 0.8em;
+  }
+  .search-field .search-input {
+    height: 4% !important;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .search-field {
+    width: 80%;
+    margin: 2em 0.8em;
+  }
+  .search-field .search-input {
+    width: 72%;
+    margin: 0.5em 0 0.3em 2em;
+    font-size: 1em;
+  }
+  .search-field .search-icon {
+    margin: 0.3em 0 0.5em 0.8em;
+  }
+  .item-list {
+    padding: 0;
+    display: block;
+  }
+  .recette-card {
+    width: 70%;
+    padding-bottom: 0;
+    margin: 2em;
+  }
+  recette-card-top img {
+    height: 350px;
+  }
+}
