@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap");
 
-/* .main-div {
-  background-image: url("./assets/img/hero-picture.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 85vh;
-} */
 .main-div {
   height: 80vh;
   background-image: url("./assets/img/hero-picture.png");
@@ -17,9 +10,8 @@
 }
 .main-div .search {
   vertical-align: middle;
-
-  width: 52%;
-  height: 26%;
+  width: 53%;
+  height: auto;
   background-color: rgba(255, 255, 255, 0.88);
   top: 36%;
   left: 22%;
@@ -28,20 +20,20 @@
 }
 .main-div .search .title {
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 35px;
+  font-size: 2.188em;
   word-spacing: 0.05em;
   letter-spacing: 0.03em;
   text-align: center;
   margin: 0 auto;
-  width: 437px;
+  width: 70%;
 }
 .search-field {
   background-image: url("/assets/img/search-field.png");
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid grey;
-  width: 455px;
-  height: 48px;
+  width: 80%;
+  height: auto;
   margin: 1.4em auto 0;
   border-radius: 4px;
 }
@@ -55,9 +47,9 @@ img.search-icon {
   background: transparent;
   border: none;
   position: absolute;
-  margin: 11px;
+  margin: 0.5em;
   width: 65%;
-  height: 12%;
+  height: auto;
   font-size: 22px;
   font-family: "PT Sans", sans-serif;
 }
@@ -68,15 +60,6 @@ img.search-icon {
   opacity: 0.3;
 }
 @media (min-width: 870px) and (max-width: 1024px) {
-  .main-div .search {
-    width: 55%;
-    height: 34%;
-    top: 40%;
-    left: 20%;
-  }
-  .main-div .search .title {
-    font-size: 1.9em;
-  }
   .search-field {
     width: 95%;
     height: 42px;
@@ -93,66 +76,56 @@ img.search-icon {
 }
 
 @media (min-width: 640px) and (max-width: 869px) {
+  .main-div {
+    background-image: url("./assets/img/hero-mobile.png");
+  }
   .main-div .search {
-    top: 43%;
-    left: 6%;
-    width: 71%;
-    height: 28%;
+    top: 36%;
+    left: 5%;
+    width: 80%;
+    height: auto;
   }
   .main-div .search .title {
-    font-size: 1.7em;
+    width: 70%;
+    margin-bottom: 0.8em;
+    font-size: 1.9em;
   }
   .search-field {
     width: 80%;
-    height: 35px;
-    margin-top: 0.6em;
-  }
-  .search-field .search-icon {
-    margin: 0.5em;
-    width: 6%;
-  }
-  .search-field .search-field-input {
-    width: 64%;
     height: auto;
-    margin: 0.4em 0 0 0.6em;
-    font-size: 1.2em;
+    margin-top: 0.6em;
   }
 }
 @media (min-width: 480px) and (max-width: 639px) {
   .main-div {
-    height: 80vh;
     background-image: url("./assets/img/hero-mobile.png");
-    background-repeat: round;
-    background-position: initial;
-    background-size: cover;
   }
   .main-div .search {
-    width: 81%;
-    height: 29%;
-    top: 37%;
+    top: 36%;
     left: 5%;
+    width: 80%;
+    height: auto;
   }
   .main-div .search .title {
-    font-size: 1.5em;
-    width: 75%;
+    font-size: 2em;
   }
   .search-field {
-    width: 85%;
-    height: 37px;
+    width: 95%;
     margin-top: 1.2em;
   }
   .search-field .search-icon {
-    margin: 0.5em 0 0.5em 0.8em;
-    width: 6.5%;
+    margin: 0;
+    margin-left: 0.2em;
+    padding: 0.6em;
   }
   .search-field .search-field-input {
-    margin: 11px;
-    width: 65%;
-    height: 10%;
+    width: 73%;
+    height: auto;
     font-size: 1.18em;
+    margin: 0.6em 0;
   }
 }
-@media (min-width: 375px) and (max-width: 497px) {
+@media (min-width: 375px) and (max-width: 479px) {
   .main-div {
     height: 45vh;
     background-image: url("./assets/img/hero-mobile.png");
@@ -164,17 +137,11 @@ img.search-icon {
     top: 23%;
     left: 5%;
     width: 80%;
-    height: 13%;
+    height: auto;
   }
 
   .main-div .search .title {
-    margin-bottom: 0.5em;
-    width: 100%;
-    font-size: 1.2em;
-    word-spacing: 0.03em;
-    letter-spacing: 0.03em;
-    text-align: center;
-    font-family: "PT Sans", sans-serif;
+    font-size: 1.5em;
   }
   .search-field {
     width: 100%;
@@ -183,12 +150,12 @@ img.search-icon {
   }
   .search-field .search-icon {
     margin: 0.5em;
-    width: 7%;
+    width: 6%;
   }
   .search-field .search-field-input {
     width: 75%;
     height: auto;
-    margin: 0.6em 0 0 0.6em;
+    margin: 0.5em 0;
     font-size: 0.99em;
   }
 }

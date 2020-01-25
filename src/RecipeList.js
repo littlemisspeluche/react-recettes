@@ -44,7 +44,7 @@ export default function RecipeList() {
       <Navbar />
       <Container className="search-field">
         <InputGroup className="mb-3 form-group w-50">
-          <img src={searchIcon} className="search-icon" alt="search-icon" />
+          <img src={searchIcon} className="search-icon search-recipe" alt="search-icon" />
 
           <FormControl
             className="search-input"

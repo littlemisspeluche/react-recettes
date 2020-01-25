@@ -4,17 +4,27 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.container.search-field {
+  background-image: url(/assets/img/search-field.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid grey;
+  width: 46%;
+  height: 48px;
+  margin: 1.4em auto 0;
+  border-radius: 4px;
+}
 .search-field .search-input {
-  margin: 0.4em 1em;
-  width: 27% !important;
-  height: 7% !important;
+  background: transparent;
+  border: none;
+  position: absolute;
+  margin: 0.5em 0;
+  width: 37%;
+  height: auto;
+  font-size: 1.3em;
 }
 
 @media (min-width: 1025px) and (max-width: 1224px) {
-  .search-field .search-input {
-    width: 44% !important;
-    height: 4% !important;
-  }
   .recette-card {
     width: 30% !important;
     margin: 0.9em !important;
@@ -31,23 +41,25 @@
     padding: 1em;
   }
   .search-field .search-input {
-    width: 44%;
-    height: 4%;
+    width: 50%;
+    height: auto;
+    margin-left: 1em;
   }
   .recette-card {
     width: 30% !important;
     margin: 0.5em !important;
   }
-  .search-field .search-input {
-    width: 44% !important;
-    height: 4% !important;
-  }
 }
 
 @media (min-width: 640px) and (max-width: 869px) {
+  .search-field.container {
+    width: 80%;
+    height: auto;
+    margin: 1em auto;
+  }
   .search-field .search-input {
-    width: 60%;
-    height: 3% !important;
+    width: 75%;
+    height: auto;
   }
   .item-list {
     padding: 1em;
@@ -63,27 +75,24 @@
     padding: 0;
     width: 100%;
   }
-  .search-field {
-    width: 80%;
-    margin: 2em 0.8em;
+  .search-field.container {
+    width: 85%;
+    height: auto;
+    margin: 1em auto;
   }
+
   .search-field .search-input {
-    width: 72%;
-    margin: 0.5em 0 0.3em 2em;
-    font-size: 1em;
-  }
-  .search-field .search-icon {
-    margin: 0.3em 0 0.5em 0.8em;
-  }
-  .search-field .search-input {
-    height: 4% !important;
+    width: 74%;
+    margin: 0.7em auto;
+    font-size: 1.2em;
   }
 }
 
 @media (min-width: 375px) and (max-width: 480px) {
-  .search-field {
-    width: 80%;
-    margin: 2em 0.8em;
+  .search-field.container {
+    width: 85%;
+    height: auto;
+    margin: 1em auto;
   }
   .search-field .search-input {
     width: 72%;

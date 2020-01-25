@@ -145,13 +145,15 @@ function Recipe({ location }) {
         </div>
         <ul className="tips">
           <h2>delicious. tips</h2>
-          {recipeTips.map(item => (
-            <li>
-              {item}
-              <br />
-              <br />
-            </li>
-          ))}
+          {recipeTips
+            ? recipeTips.map(item => (
+                <li>
+                  {item}
+                  <br />
+                  <br />
+                </li>
+              ))
+            : []}
         </ul>
       </div>
     </div>
